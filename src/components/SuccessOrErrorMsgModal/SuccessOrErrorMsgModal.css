@@ -1,0 +1,120 @@
+.overlay {
+    top: 0;
+}
+
+.success-or-error-msg-modal {
+    width: 640px;
+    height: 490px;
+    padding: 0 60px;
+    margin-top: 0;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+#success-or-error-msg-modal-cancle {
+    width: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.success-or-error-msg-modal-details {
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    gap: 103px;
+}
+
+.success-or-error-msg-modal-details div {
+    position: relative;
+}
+
+.success-or-error-msg-modal-tokens-amount {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 12px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.success-or-error-msg-modal-message {
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.success-or-error-msg-modal-btn {
+    background-color: #7e77dd;
+    margin: 0;
+}
+
+.success-or-error-msg-modal-btn:hover {
+    box-shadow: 0 0 16px 0 #7e77dd, 0 0 16px 0 #7e77dd;
+}
+
+.success-or-error-msg-modal-btn:active {
+    box-shadow: none;
+    background-color: #565298;
+}
+
+.success-or-error-msg-modal-blockexplorer-link {
+    text-decoration: none;
+}
+
+.success-or-error-msg-modal-blockexplorer-link p {
+    margin: 12px 0;
+}
+.tokenWallet{
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 10px !important;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.withdrawLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+@media screen and (max-width: 480px) {
+   
+.success-or-error-msg-modal-details {
+    gap: 50px;
+    margin-top: 50px;
+}
+.success-or-error-msg-modal {
+    padding: 0 35px;
+    width: 100% !important;
+    height: 90%;
+    top: 60vh !important;
+    border-radius: 15px 15px 0 0;
+}
+.confirmMetamask{
+    font-size: 12px !important;
+    margin-top: 50px !important;
+}
+.success-or-error-msg-modal-blockexplorer-link {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    right: 25%;
+}
+.success-or-error-msg-modal-blockexplorer-link p {
+    margin: 25px 0;
+}
+.success-or-error-msg-modal-message {
+    font-size: 12px;
+}
+.success-or-error-msg-modal-btn {
+    margin-top: 20px;
+}
+.tokenWallet{
+    margin-top: 20px;
+padding: 14px;
+}
+}

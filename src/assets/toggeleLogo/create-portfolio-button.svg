@@ -1,0 +1,18 @@
+<svg width="293" height="53" viewBox="0 0 293 53" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="t2vpt2h7fa">
+            <path d="M1280 0v1190H0V0h1280z"/>
+        </clipPath>
+        <filter id="5gxd1muznb" x="-5.308%" y="-29.808%" filterUnits="userSpaceOnUse" width="106.849%" height="138.462%">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="i2"/>
+            <feOffset in="i2" result="i3"/>
+            <feColorMatrix values="0 0 0 0.0 0 0 0 0 0.0 0 0 0 0 0.0 0 0 0 0 0.3131299852491259 0" in="i3"/>
+        </filter>
+    </defs>
+    <g clip-path="url(#t2vpt2h7fa)" transform="translate(-943 -199)">
+        <path d="M0 10.004C0 4.479 4.47 0 10 0h261c5.522 0 10 4.485 10 10.004v20.992C281 36.521 276.53 41 271 41H10C4.479 41 0 36.515 0 30.996V10.004z" stroke="#000" fill="none" stroke-miterlimit="10" stroke-dasharray="7.0 7.0" filter="url(#5gxd1muznb)" transform="translate(949 205)"/>
+        <path d="M949 215.004c0-5.525 4.47-10.004 10-10.004h261c5.522 0 10 4.485 10 10.004v20.992c0 5.525-4.47 10.004-10 10.004H959c-5.522 0-10-4.485-10-10.004v-20.992z" stroke="#FCFCFC" fill="none" stroke-miterlimit="10" stroke-dasharray="7.0 7.0"/>
+        <text transform="translate(1041.278 225)" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" fill="#FCFCFC" text-anchor="left">Create new portfolio</text>
+        <path d="m1010.28 225.48 14.997.04M1017.758 218.001l.04 14.998" stroke="#FCFCFC" stroke-width="2" fill="none" stroke-linecap="square" stroke-miterlimit="10"/>
+    </g>
+</svg>

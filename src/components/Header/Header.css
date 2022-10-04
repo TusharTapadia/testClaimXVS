@@ -1,0 +1,309 @@
+.header {
+    height: 100px;
+    margin: 0 0 35px;
+    position: relative;
+    padding: 0 50px 0 55px;
+    box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.31);
+    background-image: linear-gradient(to bottom, #4368cd, #7455f6);
+}
+
+#ghost-logo {
+    width: 107px;
+   
+}
+
+#header-logo {
+    width: 236px;
+    height: 50px;
+    position: absolute;
+    left: 82px;
+    margin-top: 30px;
+}
+
+.header-investor-data {
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    gap: 75px;
+    position: absolute;
+    right: 30%;
+}
+
+.header-investor-data span {
+    display: block;
+    color: #fcfcfc;
+}
+
+.connect-btn{
+    position: relative;
+    float: right;
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
+    padding: 13px 20px 12px 19px;
+    border-radius: 38px;
+    background-color: #fcfcfc;
+    border: solid 1px #7e77dd;
+    box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.connect-btn span {
+    font-weight: 600;
+    color: #564dd0;
+}
+
+.connect-btn img {
+    width: 25px;
+}
+
+.connect-btn .connect-btn-icon {
+    width: 17px;
+    height: 10px;
+    margin-left: 15px;
+    object-fit: contain;
+}
+
+.header-wrong-network-rounded-box {
+    width: 170px;
+    padding-right: 25px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    position: absolute;
+    right: 208px;
+    top: 55px;
+    transform: translateY(-50%);
+    background-color: var(--red);
+    border-radius: 38px;
+}
+
+.header-wrong-network-rounded-box p {
+    width: 50px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fcfcfc;
+}
+
+.header-wrong-network-modal {
+    width: 500px;
+    height: 160px;
+    padding-left: 25px;
+    margin-right: 0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+    border: solid 2px #fe6971;
+    border-top: none;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    opacity: 0;
+    animation: dropdown-ani 0.8s ease-in-out forwards;
+}
+.header-wrong-network-modal p{
+    margin: 15px 0;
+}
+.header-wrong-network-modal h2{
+    margin: 15px 0;
+}
+.header-wrong-network-modal-btn {
+    width: 55%;
+    height: 45px;
+    background-color: #7e77dd;
+    margin: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-wrong-network-modal-btn:hover{
+    box-shadow: 0 0 16px 0 #7e77dd, 0 0 16px 0 #7e77dd;
+}
+.header-dropdown-menu {
+    z-index: 1;
+    width: 200px;
+    margin-right: 50px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fcfcfc;
+
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+    opacity: 0;
+    animation: dropdown-ani 0.4s ease-in-out forwards;
+}
+
+@keyframes dropdown-ani {
+    to {
+        opacity: 1;
+    }
+}
+
+.header-dropdown-menu div {
+    height: 75px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-dropdown-menu-wallet-address {
+    display: block !important;
+    padding: 20px 30px !important;
+}
+
+.header-dropdown-menu-wallet-balance{
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 5px;
+}
+
+.header-dropdown-menu span, .header-dropdown-menu p {
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+.header-dropdown-menu-wallet-balance span,  header-dropdown-menu-wallet-address span{
+    font-size: 16px;
+}
+
+.header-dropdown-menu-btn:hover {
+    box-shadow: 0 0 16px 0 #FF7F7F , 0 0 16px 0 #FF7F7F;
+}
+
+.header-dropdown-menu-btn:active {
+    box-shadow: none;
+    background-color: #f94c56;
+}
+.walletAddressDiv{
+    height: 25px !important;
+    padding: 0 !important;
+   }
+   .alertBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfbcf;
+   }
+   .alertBox p{
+    font-size: 13px;
+    margin:15px 20px;
+   }
+   .alertBox img{
+    width: 25px;
+   }
+   .okBtn{
+    width: 75px !important;
+    cursor: pointer;
+   }
+   .alertBox br{
+    display: none;
+   }
+
+/* mobile css  */
+@media screen and (max-width: 480px) {
+    #ghost-logo {
+        visibility: hidden;
+        display:none;
+       
+    }
+    #header-logo {
+        visibility: hidden;
+        display: none;
+   
+   }
+   .header{
+    padding: 0 5px;
+   }
+   .header-dropdown-menu {
+    margin: 0;
+    width: 100%;
+   }
+   .header-dropdown-menu-wallet-address {
+    display: block !important;
+    padding: 10px 30px !important;
+   }
+   .header-dropdown-menu div {
+    height: 50px;
+   }
+ 
+}
+
+@media screen and (max-width: 480px) {
+    .connect-btn{
+        margin-top: 20px;
+    }
+   
+    .header-wrong-network-rounded-box {
+        width: 165px;
+        height: 55px;
+        right: 190px;
+        top: 52px;
+    }
+    .header-wrong-network-rounded-box p {
+        width: auto;
+    }
+    .header-wrong-network-modal{
+        margin-right: 0;
+        width: 100%;
+      
+    }
+    .header-wrong-network-modal-btn {
+        width: 45%;
+        height: 30%;
+        font-size: 12px;
+        
+    }
+    .header{
+        margin: 0 0 20px;
+    }
+    .disconnectBtn{
+        display: flex;
+        justify-content: center !important;
+    }
+    .disconnectBtn img{ 
+       margin-left: 20px;
+    }
+    .header-dropdown-menu-wallet-address{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .header-dropdown-menu-wallet-balance{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .walletAddressDiv{
+        padding: 0 !important;
+    }
+    .alertBox{
+        padding:10px;
+    }
+    .alertBox span{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .alertBox p{
+        font-size: 6px;
+        margin: 10px;
+    }
+    .alertBox br{
+        display: block;
+       }
+    .ok{
+        width: 30px !important;
+    }
+  }

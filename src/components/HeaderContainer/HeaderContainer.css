@@ -1,0 +1,60 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    margin:0 50px ;
+    align-items: center;
+}
+.mobileHeader{
+  display: none;
+}
+.title {
+    font-weight: 600;
+    color: #fcfcfc;
+  }
+  .create-portfolio-button {
+    cursor: pointer;
+  }
+  .create-portfolio-button img{
+   
+    width: 20rem;
+  }
+  @media screen and (max-width: 480px) {
+    .create-portfolio-button {
+      display: none;
+      visibility: hidden;
+    }
+    .mobileHeader{
+      display:flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin:0 30px;
+      }
+    .mobileHeader img{
+      width: 35px;
+      margin: 10px 0;
+    }
+    .todayDate{
+     font-size: 12px;
+    }
+    .mobileHeader p{
+      color: #ffffff;
+      margin: 10px 0;
+    }
+    .mobileHeader .left{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      
+      justify-content: space-between;
+    }
+    .mobileHeader .right{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: row;
+   justify-content: space-between;
+    }
+    .HeaderContainer{
+      display: none;
+    }
+
+  }
